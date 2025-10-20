@@ -21,18 +21,22 @@
 
 [Глоссарий](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/glossary.md) с терминами.
 
-TBD
+1. Метод обратного распространения ошибки, полносвязные нейронные сети: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-01-mlp.pdf), [конспект](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-latex/notes-01-mlp.pdf)
+2. Кросс-энтропийная функция потерь, Dropout, Batch Normalization: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-02-dropout-batchnorm.pdf)
+3. Оптимизация нейронных сетей: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-03-optimization.pdf)
 
 ## Семинары
+1. Введение в библиотеку PyTorch. Автоматическое дифференцирование: TBA
+2. Полносвязные нейронные сети. Общая схема пайплайна обучения на PyTorch: TBA
 
-TBD
+TBA
 
 ## Маленькие домашние задания
 
-TBD
+1. Автоматическое дифференцирование и полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small)
 
 ## Теоретические домашние задания
 
 Теоретические ДЗ не сдаются и предлагаются студентам для самостоятельного решения и ознакомления
 
-TBD
+1. Полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/homeworks-theory/thw-01-mlp.pdf)

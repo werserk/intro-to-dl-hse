@@ -3,7 +3,6 @@
 .idea/
 PokemonData/
 *.zip
-
-
+README-old.md
 *.pt
 *.pyc
