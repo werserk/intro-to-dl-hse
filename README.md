@@ -37,7 +37,7 @@ TBA
 ## Маленькие домашние задания
 
 1. Автоматическое дифференцирование и полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small)
-2. Сверточный классификатор: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small/shw-02-cnn)
+2. Сверточный классификатор: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small/shw-02-cnn.ipynb)
 
 ## Теоретические домашние задания
 
