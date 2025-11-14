@@ -31,6 +31,7 @@
 1. Введение в библиотеку PyTorch. Автоматическое дифференцирование: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-01-intro.ipynb)
 2. Полносвязные нейронные сети. Общая схема пайплайна обучения на PyTorch: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-02-backprop.ipynb)
 3. Операция свертки: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-03-cnn.ipynb)
+4. Сверточные архитектуры: [папка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-04-unet)
 
 TBA
 
