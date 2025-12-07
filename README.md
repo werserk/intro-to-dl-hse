@@ -26,11 +26,14 @@
 3. Оптимизация нейронных сетей: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-03-optimization.pdf)
 4. Операция свертки: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-04-convolution.pdf)
 5. Сверточные архитектуры: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-05-cnn.pdf)
+6. Задачи компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/lecture-notes/notes-06-cv.pdf)
 
 ## Семинары
 1. Введение в библиотеку PyTorch. Автоматическое дифференцирование: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-01-intro.ipynb)
 2. Полносвязные нейронные сети. Общая схема пайплайна обучения на PyTorch: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-02-backprop.ipynb)
 3. Операция свертки: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-03-cnn.ipynb)
+4. Сверточные архитектуры: [папка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-04-unet)
+5. Семантическая сегментация и детекция: [папка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-05-cv)
 
 TBA
 
@@ -44,3 +47,4 @@ TBA
 Теоретические ДЗ не сдаются и предлагаются студентам для самостоятельного решения и ознакомления
 
 1. Полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/homeworks-theory/thw-01-mlp.pdf)
+2. Сверточные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/homeworks-theory/thw-02-cnn.pdf)
