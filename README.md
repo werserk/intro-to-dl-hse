@@ -34,6 +34,7 @@
 3. Операция свертки: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-03-cnn.ipynb)
 4. Сверточные архитектуры: [папка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-04-unet)
 5. Семантическая сегментация и детекция: [папка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-05-cv)
+6. Word2Vec, TextCNN: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-06-w2v.ipynb)
 
 TBA
 
