@@ -30,6 +30,8 @@
 7. Токенизация, эмбеддинги, TextCNN: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-07-embeddings.pdf), [конспект](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-latex/notes-07-embeddings.pdf)
 8. Рекуррентные нейронные сети: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-08-rnn.pdf)
 9. Архитектура трансформера: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-09-transformer.pdf)
+10. Self-supervised learning, BERT, SimCLR: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/lecture-notes/notes-10-self-supervised.pdf)
+11. Трансформеры для компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/lecture-notes/notes-11-vit.pdf)
 
 ## Семинары
 1. Введение в библиотеку PyTorch. Автоматическое дифференцирование: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-01-intro.ipynb)
@@ -40,6 +42,7 @@
 6. Word2Vec, TextCNN: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-06-w2v.ipynb)
 7. Language models, image captioning: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-07-rnn.ipynb)
 8. Архитектура трансформера: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-08-transformer.ipynb)
+9. BERT, question answering: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-09-bert.ipynb)
 
 
 TBA
