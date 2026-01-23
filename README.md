@@ -26,12 +26,12 @@
 3. Оптимизация нейронных сетей: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-03-optimization.pdf)
 4. Операция свертки: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-04-convolution.pdf)
 5. Сверточные архитектуры: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-05-cnn.pdf)
-6. Задачи компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/lecture-notes/notes-06-cv.pdf)
+6. Задачи компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-06-cv.pdf)
 7. Токенизация, эмбеддинги, TextCNN: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-07-embeddings.pdf), [конспект](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-latex/notes-07-embeddings.pdf)
 8. Рекуррентные нейронные сети: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-08-rnn.pdf)
-9. Архитектура трансформера: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-09-transformer.pdf)
-10. Self-supervised learning, BERT, SimCLR: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/lecture-notes/notes-10-self-supervised.pdf)
-11. Трансформеры для компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/lecture-notes/notes-11-vit.pdf)
+9. Архитектура трансформера: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-09-transformer.pdf), [конспект (черновик)](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-latex/notes-09-transformer-draft.pdf)
+10. Self-supervised learning, BERT, SimCLR: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-10-self-supervised.pdf)
+11. Трансформеры для компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-11-vit.pdf)
 
 ## Семинары
 1. Введение в библиотеку PyTorch. Автоматическое дифференцирование: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-01-intro.ipynb)
@@ -56,5 +56,5 @@ TBA
 
 Теоретические ДЗ не сдаются и предлагаются студентам для самостоятельного решения и ознакомления
 
-1. Полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/homeworks-theory/thw-01-mlp.pdf)
-2. Сверточные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2024-2025/homeworks-theory/thw-02-cnn.pdf)
+1. Полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/homeworks-theory/thw-01-mlp.pdf)
+2. Сверточные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/homeworks-theory/thw-02-cnn.pdf)
