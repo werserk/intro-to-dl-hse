@@ -44,6 +44,7 @@
 8. Архитектура трансформера: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-08-transformer.ipynb)
 9. BERT, question answering: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-09-bert.ipynb)
 10. Vision Transformer: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-10-vit.ipynb)
+11. Оптимизация нейросетей: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-11-distillation)
 
 TBA
 
