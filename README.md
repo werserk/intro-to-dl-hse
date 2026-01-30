@@ -14,8 +14,8 @@
 ## Полезные ссылки
 
 * [Вики-страничка](http://wiki.cs.hse.ru/Глубинное_обучение_1_25/26)
-* Таблица с оценками
-* [Плейлист с записями занятий](https://disk.360.yandex.ru/d/ogALCbiUSJl6Xg)
+* [Таблица с оценками](https://docs.google.com/spreadsheets/d/1ZxIP7ejDFrSbDT_YEFZUCpeF4OSPfrr8DjVVm2Dyn3g/edit?usp=sharing)
+* [Плейлист с записями занятий](https://disk.360.yandex.ru/d/CSAkUzwFZxk6TA)
 
 ## Лекции
 
@@ -51,6 +51,7 @@ TBA
 
 1. Автоматическое дифференцирование и полносвязные нейронные сети: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small)
 2. Сверточный классификатор: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small/shw-02-cnn.ipynb)
+3. RNN и языковые модели: [ссылка](https://github.com/xiyori/intro-to-dl-hse/tree/2025-2026/homeworks-small/shw-03-rnn) 
 
 ## Теоретические домашние задания
 
