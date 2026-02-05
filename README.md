@@ -33,6 +33,7 @@
 10. Self-supervised learning, BERT, SimCLR: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-10-self-supervised.pdf)
 11. Трансформеры для компьютерного зрения: [слайды](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-11-vit.pdf)
 12. Оптимизации для применения нейронных сетей: [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-12-opt-inference.pdf), [конспект](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-latex/notes-12-opt-inference.pdf)
+13. Соревновательные атаки, генеративно-состязательные сети (GANs): [доска](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-notes/notes-13-adversarial.pdf), [конспект](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/lecture-latex/notes-13-adversarial.pdf)
 
 ## Семинары
 1. Введение в библиотеку PyTorch. Автоматическое дифференцирование: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-01-intro.ipynb)
