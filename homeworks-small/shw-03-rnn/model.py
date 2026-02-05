@@ -32,9 +32,9 @@ class LanguageModel(nn.Module):
         """
         Compute forward pass through the model and
         return logits for the next token probabilities
-        :param indices: LongTensor of encoded tokens of size (batch_size, length)
+        :param indices: LongTensor of encoded tokens of size (batch_size, input length)
         :param lengths: LongTensor of lengths of size (batch_size, )
-        :return: FloatTensor of logits of shape (batch_size, length, vocab_size)
+        :return: FloatTensor of logits of shape (batch_size, output length, vocab_size)
         """
         # This is a placeholder, you may remove it.
         logits = torch.randn(
