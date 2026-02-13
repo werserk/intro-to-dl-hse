@@ -48,6 +48,7 @@
 10. Vision Transformer: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-10-vit.ipynb)
 11. Оптимизация нейросетей: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-11-distillation)
 12. Соревновательные атаки, генеративно-состязательные сети (GANs): [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-12-adversarial.ipynb)
+13. Вариационный автокодировщик: [ноутбук](https://github.com/xiyori/intro-to-dl-hse/blob/2025-2026/seminars/232/seminar-13-vae.ipynb)
 
 TBA
 
