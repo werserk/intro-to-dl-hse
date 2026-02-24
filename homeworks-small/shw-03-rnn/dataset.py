@@ -1,5 +1,6 @@
 import os
 import torch
+import random
 from typing import Union, List, Tuple
 from sentencepiece import SentencePieceTrainer, SentencePieceProcessor
 from torch.utils.data import Dataset
@@ -35,12 +36,11 @@ class TextDataset(Dataset):
         with open(data_file) as file:
             texts = file.readlines()
 
-        """
-        YOUR CODE HERE (⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿
-        Split texts to train and validation fixing self.TRAIN_VAL_RANDOM_SEED
-        The validation ratio is self.VAL_RATIO
-        """
-        train_texts, val_texts = None, None
+        random.seed(self.TRAIN_VAL_RANDOM_SEED)
+        random.shuffle(texts)
+
+        val_size = int(len(texts) * self.VAL_RATIO)
+        train_texts, val_texts = texts[val_size:], texts[:val_size]
         self.texts = train_texts if train else val_texts
         self.indices = self.sp_model.encode(self.texts)
 
@@ -83,14 +83,12 @@ class TextDataset(Dataset):
         :param item: text id
         :return: encoded text indices and its actual length (including BOS and EOS specials)
         """
-        # These are placeholders, you may remove them.
-        indices = torch.randint(high=self.vocab_size, size=(self.max_length, ))
-        length = torch.randint(low=1, high=self.max_length + 1, size=()).item()
-        """
-        YOUR CODE HERE (⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿
-        Take corresponding index array from self.indices,
-        add special tokens (self.bos_id and self.eos_id) and 
-        pad to self.max_length using self.pad_id.
-        Return padded indices of size (max_length, ) and its actual length
-        """
+        raw_indices = self.indices[item]
+        raw_indices = raw_indices[:self.max_length - 2]
+        
+        combined_indices = [self.bos_id] + raw_indices + [self.eos_id]
+        length = len(combined_indices)
+        
+        padding = [self.pad_id] * (self.max_length - length)
+        indices = torch.tensor(combined_indices + padding, dtype=torch.long)
         return indices, length

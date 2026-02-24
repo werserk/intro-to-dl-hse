@@ -6,3 +6,6 @@ PokemonData/
 README-old.md
 *.pt
 *.pyc
+*.txt
+*.model
+*.vocab
