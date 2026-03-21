@@ -11,3 +11,4 @@ README-old.md
 *.vocab
 
 data/
+**/*.csv
