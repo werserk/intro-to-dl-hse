@@ -16,11 +16,19 @@ class ProjectionHead(nn.Module):
         The whole structure should be in the following order:
         [Linear, GELU, Linear, Dropout, Skip, LayerNorm]
         """
-        self.projection = #TODO: Projection into a small latent space
-        # Make everything else yourself.
+        self.projection = nn.Linear(embedding_dim, projection_dim)
+        self.gelu = nn.GELU()
+        self.fc = nn.Linear(projection_dim, projection_dim)
+        self.dropout = nn.Dropout(dropout)
+        self.layer_norm = nn.LayerNorm(projection_dim)
     
     def forward(self, x):
         """
         Perform forward pass, do not forget about skip-connections.
         """
-        pass
+        projected = self.projection(x)
+        x = self.gelu(projected)
+        x = self.fc(x)
+        x = self.dropout(x)
+        x = x + projected
+        return self.layer_norm(x)

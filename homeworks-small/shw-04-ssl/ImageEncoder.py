@@ -7,14 +7,17 @@ class ImageEncoder(nn.Module):
     """
     def __init__(
         self, model_name="resnet50", pretrained=True, trainable=False
-        ):
+    ):
         """
         We will use standard pretrained ResNet50, and set freeze its parameters.
         Look the documentation of TIMM on how to donwload the model: https://timm.fast.ai/
         """
         super().__init__()
-        #TODO
-        pass
+        self.model = timm.create_model(
+            model_name, pretrained=pretrained, num_classes=0, global_pool="avg"
+        )
+        for p in self.model.parameters():
+            p.requires_grad = trainable
 
     def forward(self, x):
         return self.model(x)

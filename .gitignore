@@ -9,3 +9,5 @@ README-old.md
 *.txt
 *.model
 *.vocab
+
+data/
